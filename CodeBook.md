@@ -649,5 +649,5 @@ For summarized data, data_merged was grouped by ActivityName and Subject_ID, bef
 
   - Create a merged data frame from "train" and "test" data files, after tidying up column names and filtering onn relevant ones (mean and standard deviation only)
   - Create data frames for Subject and Activity(with Labels) files and merge with "train" and "test" data.
-  - Finally, create a summarized data set of mean of all variables (sensor reads), grouped by Activity type and Subject(volunteers)
+  - Finally, create a summarized data set of mean of all variables (sensor reads), grouped by Activity type and Subject(volunteers) and save it to CleanOutput.txt file
 

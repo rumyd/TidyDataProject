@@ -117,5 +117,7 @@ d1 <- select(data_merged, -Group)
 # this grouping
 data_grouped_mean <- d1 %>% group_by(ActivityName, subject_ID) %>%
     summarise_each(funs(mean))
-head(data_grouped_mean)
+
+write.table(data_grouped_mean, "cleanoutput.csv", sep = " ", row.names = FALSE)
+
 }
