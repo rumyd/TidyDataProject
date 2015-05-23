@@ -1,7 +1,7 @@
 # This script is to practise fundamentals of tidying data using R script
 
-# STEP 1 --> Download entire data from url
 run_analysis <- function(){
+# STEP 1 --> Download entire data from url
 if(!file.exists('./TidyDataAssign')){dir.create("./TidyDataAssign")}
 url <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 download.file(url, destfile = "./TidyDataAssign/getdata-projectfiles-UCI HAR Dataset.zip")
